@@ -1,8 +1,8 @@
 streamlit
-streamlit-option-menu
 pandas
 numpy
 matplotlib
 scikit-learn
-scipy
+streamlit-option-menu
 surprise
+scipy
