@@ -9,13 +9,13 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-movies_data = pd.read_csv("/Users/ahdosama/Documents/Hybrid-Movie-Recommendation-System-Project/data/cleaned_movies.csv")
+movies_data = pd.read_csv("data/cleaned_movies.csv")
 
 
 # In[ ]:
 
 
-rating_data = pd.read_csv("/Users/ahdosama/Documents/Hybrid-Movie-Recommendation-System-Project/data/ratings.csv")
+rating_data = pd.read_csv("data/ratings.csv")
 
 
 # In[2]:
