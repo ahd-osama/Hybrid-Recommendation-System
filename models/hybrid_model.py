@@ -9,10 +9,10 @@ import pandas as pd
 import pickle
 
 # Load or import your data and model:
-movies_data = pd.read_csv("/Users/ahdosama/Documents/Hybrid-Movie-Recommendation-System-Project/data/cleaned_movies.csv")  # example
-rating_data = pd.read_csv("/Users/ahdosama/Documents/Hybrid-Movie-Recommendation-System-Project/data/ratings.csv")         # example
-cosine_sim = np.load("/Users/ahdosama/Documents/Hybrid-Movie-Recommendation-System-Project/ui/..\data\cosine_sim.npy")           # example saved numpy array
-with open("/Users/ahdosama/Documents/Hybrid-Movie-Recommendation-System-Project/data/svd_model.pkl", 'rb') as f:
+movies_data = pd.read_csv("data/cleaned_movies.csv")  # example
+rating_data = pd.read_csv("data/ratings.csv")         # example
+cosine_sim = np.load("ui/..\data\cosine_sim.npy")           # example saved numpy array
+with open("data/svd_model.pkl", 'rb') as f:
     svd = pickle.load(f)
 
 
